@@ -1,0 +1,2 @@
+list1 = df.select_dtypes(include=['float64']).columns
+df[list1]*=100
